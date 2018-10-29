@@ -94,3 +94,4 @@ bot.on('message', function(message){
 });
 
 bot.login(TOKEN);
+client.log(process.env.BOT_TOKEN);
